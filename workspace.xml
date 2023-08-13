@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="df34f085-f3ea-49a3-bf1b-7e11645a8462" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/app/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/app/vendor/composer" />
+      <path value="$PROJECT_DIR$/app/vendor/bramus/router" />
+      <path value="$PROJECT_DIR$/app/vendor/pandcar/base" />
+      <path value="$PROJECT_DIR$/app/vendor/magkopian/php-infinite-multi-level-comments" />
+      <path value="$PROJECT_DIR$/app/vendor/lincanbin/php-pdo-mysql-class" />
+    </include_path>
+  </component>
+  <component name="ProjectId" id="273A49YmvjfrfB7YFgK0IJIpNqa" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../new-squad" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\squad\controllers\graphic\cache" />
+      <recent name="C:\OpenServer\domains\squad\utils\font" />
+      <recent name="C:\OpenServer\domains\squad\utils\makefont" />
+      <recent name="C:\OpenServer\domains\squad\utils" />
+      <recent name="C:\OpenServer\domains\squad\app" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OpenServer\domains\squad\controllers\graphic" />
+      <recent name="C:\OpenServer\domains\squad\utils\font" />
+      <recent name="C:\OpenServer\domains\squad\utils" />
+    </key>
+  </component>
+  <component name="RunManager" selected="PHP Script.1.php">
+    <configuration name="1.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/pages/1.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.0" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="tttest.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/tttest.php">
+      <CommandLine>
+        <PhpTestInterpreterSettings>
+          <option name="interpreterName" value="PHP 8.0" />
+        </PhpTestInterpreterSettings>
+      </CommandLine>
+      <method v="2" />
+    </configuration>
+    <configuration name="xyu.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/xyu.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.1.php" />
+        <item itemvalue="PHP Script.tttest.php" />
+        <item itemvalue="PHP Script.xyu.php" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="df34f085-f3ea-49a3-bf1b-7e11645a8462" name="Changes" comment="" />
+      <created>1648538204635</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1648538204635</updated>
+      <workItem from="1648538205970" duration="7542000" />
+      <workItem from="1648651765424" duration="17618000" />
+      <workItem from="1648717502220" duration="383000" />
+      <workItem from="1648727148426" duration="595000" />
+      <workItem from="1649007866880" duration="6964000" />
+      <workItem from="1649019859519" duration="1652000" />
+      <workItem from="1649084428159" duration="5739000" />
+      <workItem from="1649093854862" duration="602000" />
+      <workItem from="1649158366357" duration="5262000" />
+      <workItem from="1649170465123" duration="823000" />
+      <workItem from="1649172657139" duration="17000" />
+      <workItem from="1649173109809" duration="18532000" />
+      <workItem from="1649229717113" duration="17000" />
+      <workItem from="1649266459188" duration="1638000" />
+      <workItem from="1650298731858" duration="1659000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
