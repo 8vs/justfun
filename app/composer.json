@@ -1,0 +1,21 @@
+{
+    "name": "dasha/adventure-time",
+    "type": "project",
+    "require": {
+        "pandcar/base": "^2.3",
+        "lincanbin/php-pdo-mysql-class": "^2.2",
+        "magkopian/php-infinite-multi-level-comments": "^1.0",
+        "bramus/router": "~1.6",
+        "ext-json": "*",
+      "ext-pdo": "*",
+      "ext-iconv": "*",
+      "ext-mbstring": "*",
+      "ext-mysql": "*",
+		"ext-gd": "*"
+	},
+    "autoload": {
+        "psr-4": {
+            "AdventureTime\\": "./"
+        }
+    }
+}

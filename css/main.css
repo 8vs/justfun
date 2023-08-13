@@ -1,0 +1,480 @@
+body {
+    font-family: Bradley Hand, cursive;
+    text-align: center;
+    background: linear-gradient(to top, #CCCCFF, #FFEEFF);
+}
+
+h2 {
+    font: bolder 28px Segoe script;
+    color: #0000CD;
+}
+
+h3 {
+    font: bolder 22px Segoe script;
+    color: #0000CD;
+}
+
+h4 {
+    font: bolder 22px Segoe script;
+    color: #4169E1;
+}
+
+* {box-sizing: border-box;}
+
+.caption-border {
+    width: 300px;
+    border: 5px solid #AFCBFF;
+    background: white;
+    padding: 10px;
+}
+.caption-border img {
+    max-width: 100%;
+    height: auto;
+    margin: 10px auto 20px;
+    display: block;
+}
+.caption-border figcaption {
+    padding: 10px;
+    color: white;
+    background: #AFCBFF;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.href {
+    display: inline-block;
+    padding: 0.45em 0.7em 0.5em;
+    border: none;
+    border-radius: 1em;
+    color: #F0FFF0;
+    text-dicoration: none;
+    font-size: 20px;
+    background-image: linear-gradient(to top, #5a70d4, #892ad8);
+    box-shadow: 0 4px 15px 0 rgba(136, 92, 197, 0.75);
+}
+.href:hover {
+    background-image: linear-gradient(to top, #1E90FF, #8A2BE2);
+    font:normal 21px Segoe script;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.35em 0.5em 0.3em;
+    border: none;
+    border-radius: 1em;
+    color: #F0FFF0;
+    text-dicoration: none;
+    font-size: 20px;
+    background: #892ad8;
+    box-shadow: 0 4px 15px 0 rgba(136, 92, 197, 0.75);
+}
+.button:hover {
+    background-image: linear-gradient(to top, #5a70d4, #892ad8);
+    /*font: normal 16px;*/
+}
+
+.text {
+    font-size: 2em;
+    background: linear-gradient(to top, #5a70d4, #892ad8);
+    color: #F0FFF0;
+    text-align: center;
+}
+.transparent-text {
+    font-size: 2.8em;
+    background: linear-gradient(to top, #7029C9, #D2089A, #F74D72, #FB8A61);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    padding: 0.4em 0.7em ;
+    border: 6px solid transparent;
+    border-image-slice: 10;
+    text-align: center;
+    font-weight: 650;
+}
+
+.container {
+    width:450px;
+    height: auto;
+    padding-bottom: 15px;
+    background-color: rgba(136, 92, 197, 0.4);
+    margin: 80px auto 0 auto;
+    text-align: center;
+    box-shadow: 0 -5px 0 #892ad8;
+}
+
+.container img {
+    width:70px;
+    height:70px;
+    margin: -40px 0 20px 0;
+    border: 5px solid #892ad8;
+    border-radius: 50%;
+}
+
+.container1 {
+    width: 320px;
+    height: auto;
+    /*height: 520px;*/
+    background-color: #ECD4FF;
+    text-align: center;
+    margin: 0 auto 0 auto;
+    border: 2px solid #D5AAFF;
+    border-radius: 5%;
+}
+
+.container1 img {
+    width: 280px;
+    height: 220px;
+    margin: 10px 0 20px 0;
+    border: 2px solid #D5AAFF;
+    border-radius: 15%;
+}
+
+input[type="text"],input[type="password"]{
+    width: 300px;
+    height:50px;
+    font-size: 18px;
+    margin-bottom: 25px;
+    border-radius: 10px;
+    padding-left: 40px;
+    background-color: rgba(135, 206, 250, 0.5);
+}
+
+.img-transparent{ background: rgba(176, 196, 222, 0.2); }
+
+.bg-ex-transparent {
+    background-size: cover;
+    background: url(../images/fon4.jpg) no-repeat center;
+}
+
+.dws-input input:hover{ box-shadow: 0 0 6px 3px rgba(136, 92, 197, 0.55); }
+
+table {
+    margin: 0 auto;
+    border-spacing: 20px 20px;
+}
+
+* {box-sizing:border-box;}
+.gradient {
+    height: 443px;
+    width: 720px;
+    margin: 0 auto;
+    border: 10px solid transparent;
+    border-image: 10 repeating-linear-gradient(45deg, #A7CECC, #A7CECC 10px, transparent 10px, transparent 20px, #F8463F 20px, #F8463F 30px,transparent 30px, transparent 40px);
+}
+
+a.button9 {
+    position: relative;
+    display: inline-block;
+    color: #777674;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: rgba(255,255,255,.5) 1px 1px, rgba(100,100,100,.3) 3px 7px 3px;
+    user-select: none;
+    padding: 1em 2em;
+    outline: none;
+    border-radius: 3px / 100%;
+    background-image:
+            linear-gradient(45deg, rgba(255,255,255,.0) 30%, rgba(255,255,255,.8), rgba(255,255,255,.0) 70%),
+            linear-gradient(to right, rgba(255,255,255,1), rgba(255,255,255,0) 20%, rgba(255,255,255,0) 90%, rgba(255,255,255,.3)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(125,125,125,1), rgba(255,255,255,.9) 45%, rgba(125,125,125,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5)),
+            linear-gradient(to right, rgba(223,190,170,1), rgba(255,255,255,.9) 45%, rgba(223,190,170,.5));
+    background-repeat: no-repeat;
+    background-size: 200% 100%, auto, 100% 2px, 100% 2px, 100% 1px, 100% 1px;
+    background-position: 200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+    box-shadow: rgba(0,0,0,.5) 3px 10px 10px -10px;
+}
+a.button9:hover {
+    transition: .5s linear;
+    background-position: -200% 0, 0 0, 0 0, 0 100%, 0 4px, 0 calc(100% - 4px);
+}
+a.button9:active {
+    top: 1px;
+}
+
+/* my styles new */
+
+.body-block {
+    padding-bottom: 15px;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.reviews-block {
+    border: 2px solid #892ad8;
+    margin: 20px;
+}
+
+.reviews-block > div.item {
+    color: #0000CD;
+    padding: 10px;
+}
+
+.reviews-block > div.item > p {
+    text-align: right;
+}
+
+.reviews-img {
+    height: 45px;
+    text-align: left;
+    border-radius: 50%;
+}
+
+.span {
+    color: #F8463F;
+}
+
+.span1 {
+    color:#4682B4;
+}
+
+#result {
+    margin-top: 10px;
+    width: 300px;
+    height: auto;
+    padding: 15px;
+    background-color: #5a70d4;
+    color: wheat;
+    border-radius: 15px;
+}
+
+.menu {
+    display: flex;
+    max-width: 100%;
+    height: auto
+}
+
+.frame_1 {
+    display: inline-block;
+    width: 20%
+}
+
+.frame_2 {
+    display: inline-block;
+    width: 80%;
+}
+
+li {
+    background: #ddd;
+    border: 1px solid #ddd;
+    padding: 5px;
+    margin: 5px;
+    width: 200px;
+    list-style-type: none;
+}
+
+.menu_list li {
+    cursor: pointer;
+}
+
+.menu_list li > a {
+    display: block;
+    text-decoration: none;
+}
+
+.tg  {border-collapse:collapse;border-spacing:0;}
+.tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:15px;
+    overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:15px;
+    font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0lax{text-align:left;vertical-align:top}
+
+.table_img {
+    height: 100px;
+    padding-bottom: 5px;
+}
+
+.btn_table_default {
+    background-color: rgba(0, 27, 255, 0.51);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.btn_table_red {
+    background-color: rgba(189, 4, 4, 0.09);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+.btn_table_green {
+    background-color: rgba(24, 241, 0, 0.09);
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+}
+
+
+/* чекбоксы и опшины */
+.x_container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.x_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.x_container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.x_container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.x_container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.x_container .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+/* Hide the browser's default checkbox */
+.x_container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+}
+
+/* On mouse-over, add a grey background color */
+.x_container:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.x_container input:checked ~ .checkmark {
+    background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+/* Show the checkmark when checked */
+.x_container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+/* Style the checkmark/indicator */
+.x_container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+/* left ing */
+#left {
+    text-align: left;
+}
+
+
+/* modal */
+.popup-fade {
+    display: none;
+}
+.popup-fade:before {
+    content: '';
+    background: #000;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: 9999;
+}
+.popup {
+    position: fixed;
+    top: 10%;
+    left: 45%;
+    padding: 20px;
+    width: 600px;
+    margin-left: -200px;
+    background: #fff;
+    border: 1px solid orange;
+    border-radius: 4px;
+    z-index: 99999;
+    opacity: 1;
+}
+.popup-close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+/* modal */
